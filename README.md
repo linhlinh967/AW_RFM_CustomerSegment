@@ -27,14 +27,14 @@ The dataset used in this analysis includes 121,253 transactions from 2017 to 202
 
 - Normalize the **RFM** variables (Recency, Frequency, Monetary) using `StandardScaler` for clustering.
 
+## Optimization with WCSS (Elbow Method)
+
+- Use the **Elbow Method** to determine the optimal number of clusters by plotting the **WCSS (Within-Cluster Sum of Squares)**.
+  
 ## Clustering with RFM Model
 
 - Calculate **RFM scores** for each customer.
 - Perform **K-Means clustering** to segment customers into distinct groups based on RFM values.
-
-## Optimization with WCSS (Elbow Method)
-
-- Use the **Elbow Method** to determine the optimal number of clusters by plotting the **WCSS (Within-Cluster Sum of Squares)**.
 
 ## Cluster Analysis
 
